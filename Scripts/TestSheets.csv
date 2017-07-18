@@ -1,0 +1,5 @@
+TestCase|Url|Browser
+TC_01|www.Google.ca|GC
+TC_02|www.Google.com|IE
+TC_03|www.Google.us|GC
+TC_04|www.Google.in|IE
