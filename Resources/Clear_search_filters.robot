@@ -7,7 +7,7 @@ ${clear_key}      DELETE
 *** Keywords ***
 User clear dashboard Job name
     Wait In Seconds    2
-    Set New Search Region In Active App    412, 249, ${dashboard_panel}
+    Set New Search Region In Active App    412, 249, ${computer_dashboard_panel}
     Click Region
     Wait In Seconds    3
     Press Keyboard Key    ${clear_key}

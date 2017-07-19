@@ -28,10 +28,10 @@ Login ControlM
     Paste String    ${ControlM_Application}
     Press Keyboard Key    ENTER
     Wait In Seconds    15
-    Set New Search Region In Active App    420, 141, ${login_panel}
+    Return screen size    420    141
     Click Region
     Paste String    ${password}
-    Set New Search Region In Active App    590, 146, ${login_panel}
+    Return screen size    590    146
     Click Region
 
 Import data file
@@ -42,73 +42,75 @@ Import data file
 Plan Jobs
     Set Image Library    ${Control_Image_library}
     Wait in Seconds    25
-    Set New Search Region In Active App    45, 226, ${dashboard_panel}
+    Set New Search Region In Active App    45, 226, ${computer_dashboard_panel}
     Click Region
     Wait In Seconds    2
-    Set New Search Region In Active App    116, 547, ${dashboard_panel}
+    Set New Search Region In Active App    116, 547, ${computer_dashboard_panel}
     Click Region
     Wait In Seconds    2
-    Set New Search Region In Active App    572, 315, ${dashboard_panel}
+    Set New Search Region In Active App    572, 315, ${computer_dashboard_panel}
     Click Region
     Wait In Seconds    2
-    Set New Search Region In Active App    699, 405, ${dashboard_panel}
+    Set New Search Region In Active App    699, 405, ${computer_dashboard_panel}
     Click Region
     Wait In Seconds    2
     Paste String    ${ENV_RUN}
-    Set New Search Region In Active App    951, 465, ${dashboard_panel}
+    Set New Search Region In Active App    951, 465, ${computer_dashboard_panel}
     Click Region
     Wait In Seconds    2
-    Set New Search Region In Active App    168, 546, ${dashboard_panel}
+    Set New Search Region In Active App    168, 546, ${computer_dashboard_panel}
     Click Region
     Wait In Seconds    2
-    Set New Search Region In Active App    990, 602, ${dashboard_panel}
+    Set New Search Region In Active App    990, 602, ${computer_dashboard_panel}
     Click Region
 
 Clear All Job Search
     Set Image Library    ${Control_Image_library}
     Wait In Seconds    20
-    Set New Search Region In Active App    164, 194, ${dashboard_panel}
+    Set New Search Region In Active App    164, 194, ${computer_dashboard_panel}
     Click Region
     User clear dashboard Job name
 
 Order Jobs
     Set Image Library    ${Control_Image_library}
-    Wait in Seconds    5
-    Set New Search Region In Active App    412, 249, ${dashboard_panel}
+    Wait in Seconds    3
+    Set New Search Region In Active App    412, 249, ${computer_dashboard_panel}
     Click Region
     Paste String    TEICMUATAPR3602L1WS
-    Wait In Seconds    3
-    Set New Search Region In Active App    446, 279, ${dashboard_panel}
+    Wait In Seconds    2
+    Set New Search Region In Active App    446, 279, ${computer_dashboard_panel}
     Click Region
-    Wait In Seconds    3
+    Wait In Seconds    2
     Right Click Region
-    Set New Search Region In Active App    537, 464, ${dashboard_panel}
+    Set New Search Region In Active App    537, 464, ${computer_dashboard_panel}
     Click Region
-    Set New Search Region In Active App    367, 198, ${right_click_panel}
+    Set New Search Region In Active App    367, 198, ${computer_right_click_panel}
     Click Region
 
 Monitoring Jobs
     Set Image Library    ${Control_Image_library}
-    Wait In Seconds    15
-    Set New Search Region In Active App    44, 321, ${dashboard_panel}
+    Wait In Seconds    10
+    Set New Search Region In Active App    44, 321, ${computer_dashboard_panel}
     Click Region
-    Wait In Seconds    5
-    Set New Search Region In Active App    216, 290, ${dashboard_panel}
+    Wait In Seconds    3
+    Set New Search Region In Active App    216, 290, ${computer_dashboard_panel}
     Click Region
 
 Free-up Jobs
     Set Image Library    ${Control_Image_library}
-    Wait In Seconds    15
-    Set New Search Region In Active App    437, 90, ${dashboard_panel}
+    Wait In Seconds    10
+    Set New Search Region In Active App    437, 90, ${computer_dashboard_panel}
     Click Region
-    Set New Search Region In Active App    390, 213, ${dashboard_panel}
+    Set New Search Region In Active App    390, 213, ${computer_dashboard_panel}
     Click Region
     Wait In Seconds    2
     Paste String    TEICMUATAPR3602L1WS
     Wait In Seconds    1
-    Set New Search Region In Active App    429, 245, ${dashboard_panel}
+    Set New Search Region In Active App    429, 245, ${computer_dashboard_panel}
     Click Region
     Wait In Seconds    2
     Right Click Region
-    Set New Search Region In Active App    530, 445, ${dashboard_panel}
+    Set New Search Region In Active App    530, 445, ${computer_dashboard_panel}
     Click Region
+
+*** Keywords ***
